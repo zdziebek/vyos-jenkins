@@ -16,7 +16,9 @@ sudo apt-get update -y
 sudo apt-get install -y \
   git \
   gpg \
+  live-build \
   reprepro
+
 
 # install python dependencies (python3-yaml is pyyaml)
 sudo apt-get install -y \
