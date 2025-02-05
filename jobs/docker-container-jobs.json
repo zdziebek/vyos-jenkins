@@ -2,7 +2,7 @@
   {
     "name": "vyos-build-container",
     "description": "shared",
-    "gitUrl": "https://github.com/notvyos/vyos-build.git",
+    "gitUrl": "https://github.com/zdziebek/vyos-build.git",
     "branchRegex": "(equuleus|sagitta)",
     "jenkinsfilePath": "packages/vyos-build-container/Jenkinsfile",
     "branchParameters": {
