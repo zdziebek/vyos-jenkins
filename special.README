@@ -1,0 +1,18 @@
+export BRANCH="equuleus"
+export NOT_VYOS="yes"
+#export CUSTOM_PACKAGES=""
+export CONCURRENT_JOBS_COUNT=128
+
+cd /opt
+git clone https://github.com/zdziebek/vyos-jenkins/
+cd /opt/vyos-jenkins/
+./1-prereqs.sh
+./2-jenkins.sh
+./3-repositories.sh
+./4-uncron.sh
+./5-docker-jobs.sh
+./6-provision-project-jobs.sh
+./7-build-project-jobs.sh
+./8-nginx.sh
+./build-iso.sh
+
